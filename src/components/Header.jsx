@@ -23,7 +23,7 @@ const toggleShowMenuHandle=()=>{
     <header>
        <nav className={`navbar navbar-expand-md navigation-wrap ${show && "scroll-on" }  `}>
                    <div className="container">
-           <a className="navbar-brand" href="/"><img src={logo} alt="" /></a>
+           <a className="navbar-brand" href="#"><img src={logo} alt="" /></a>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <i className="fas fa-stream  navbar-toggler-icon"></i>
               </button>
